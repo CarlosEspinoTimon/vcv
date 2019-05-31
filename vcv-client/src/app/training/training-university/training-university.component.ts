@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TrainingService } from '../training.service';
+import { UniversityStudy } from './university-study.model';
 
 @Component({
   selector: 'app-training-university',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TrainingUniversityComponent implements OnInit {
 
-  constructor() { }
+    universityStudies: UniversityStudy[];
 
-  ngOnInit() {
-  }
+    constructor(private trainingProvider: TrainingService) { }
+
+    ngOnInit() {
+        this.universityStudies = this.trainingProvider.getUniversityStudies();
+    }
+ 
 
 }
