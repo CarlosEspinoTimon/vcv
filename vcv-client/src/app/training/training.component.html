@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-4">
+        Training area
+        <hr>
+        <ul>
+            <app-training-list-element
+                *ngFor="let trainingEl of trainingList"
+                [training]="trainingEl"></app-training-list-element>
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <router-outlet></router-outlet>
+    </div>
+</div>
