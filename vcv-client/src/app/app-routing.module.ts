@@ -7,31 +7,31 @@ const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     {
         path: 'training',
-        loadChildren: () => import('./training/training.module').then(mod => mod.TrainingModule)
+        loadChildren: './training/training.module#TrainingModule'
     },
     {
         path: 'about-me',
-        loadChildren: () => import('./about-me/about-me.module').then(mod => mod.AboutMeModule)
+        loadChildren: './about-me/about-me.module#AboutMeModule'
     },
     {
         path: 'professional-experience',
-        loadChildren: () => import('./professional-experience/professional-experience.module').then(mod => mod.ProfessionalExperienceModule)
+        loadChildren: './professional-experience/professional-experience.module#ProfessionalExperienceModule'
     },
     {
         path: 'professional-skills',
-        loadChildren: () => import('./professional-skills/professional-skills.module').then(mod => mod.ProfessionalSkillsModule)
+        loadChildren: './professional-skills/professional-skills.module#ProfessionalSkillsModule'
     },
     {
         path: 'personal-projects',
-        loadChildren: () => import('./personal-projects/personal-projects.module').then(mod => mod.PersonalProjectsModule)
+        loadChildren: './personal-projects/personal-projects.module#PersonalProjectsModule'
     },
     {
         path: 'articles',
-        loadChildren: () => import('./articles/articles.module').then(mod => mod.ArticlesModule)
+        loadChildren: './articles/articles.module#ArticlesModule'
     },
     {
         path: 'contact',
-        loadChildren: () => import('./contact/contact.module').then(mod => mod.ContactModule)
+        loadChildren: './contact/contact.module#ContactModule'
     },
     { path: '**', redirectTo: '/home' }
     
