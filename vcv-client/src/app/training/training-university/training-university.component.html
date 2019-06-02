@@ -1,6 +1,26 @@
 <div *ngFor="let study of universityStudies">
-    <p>{{ study.name }}</p>
     <mat-card>
-        <mat-card-header>aaaa</mat-card-header>
+        <mat-card-title>{{ study.title }}</mat-card-title>
+        <mat-card-subtitle>{{ study.university }}</mat-card-subtitle>
+        <mat-card-content>
+            <div class="row">
+                <div class="col-md-4"><b>From:</b> {{ study.from | date: 'MMM, y' }}</div>
+                <div class="col-md-4"><b>To:</b> {{ study.to | date: 'MMM, y' }}</div>
+                <div class="col-md-4" style="padding-right: 10%"><img mat-card-image src="{{ study.imageUrl }}" alt="Photo of University Logo"></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">{{ study.info }}</div>
+            </div>
+            <div class="row">
+                <div *ngIf="study.infoUrl != ''" class="col-md-12">
+                    <a href="{{ study.infoUrl }}" target="_blank">Bachelor final project</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><b>Average grade:</b> {{ study.grade }}/10</div>
+            </div>
+        </mat-card-content>
     </mat-card>
+    <hr>
 </div>
