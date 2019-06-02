@@ -8,6 +8,8 @@ import { TrainingCoursesComponent } from './training-courses/training-courses.co
 import { TrainingNoSelectionComponent } from './training-no-selection/training-no-selection.component';
 import { TrainingListElementComponent } from './training-list-element/training-list-element.component';
 
+import { CustomMaterialsModule } from '../custom-materials/custom-materials.module';
+
 @NgModule({
   declarations: [
       TrainingComponent,
@@ -18,7 +20,8 @@ import { TrainingListElementComponent } from './training-list-element/training-l
   ],
   imports: [
     CommonModule,
-    TrainingRoutingModule
+    TrainingRoutingModule,
+    CustomMaterialsModule
   ]
 })
 export class TrainingModule { }
