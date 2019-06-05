@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProfessionalExperienceService } from './professional-experience.service';
 
 @Component({
   selector: 'app-professional-experience',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfessionalExperienceComponent implements OnInit {
 
-  constructor() { }
+    public companies: String[];
+    constructor(private experienceProvider: ProfessionalExperienceService ) { }
 
-  ngOnInit() {
-  }
+
+    ngOnInit() {
+        this.companies = this.experienceProvider.getCompanies();
+    }
 
 }
