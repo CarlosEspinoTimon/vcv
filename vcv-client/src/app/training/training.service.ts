@@ -39,6 +39,20 @@ export class TrainingService {
 
     coursesList = [
         new Course(
+            'Coursera',
+            'Elastic Cloud Infrastructure: Containers and Services',
+            'I participated in a Google Cloud Training for Google Partners',
+            'https://www.coursera.org/account/accomplishments/certificate/4QHW3NXDG64T',
+            'http://68.media.tumblr.com/92a71d62ace9940f8ddd540400444fc4/tumblr_inline_mppo32jFBC1qz4rgp.png'
+        ),
+        new Course(
+            'Coursera',
+            'Reliable Cloud Infrastructure: Design and Process',
+            'I participated in a Google Cloud Training for Google Partners',
+            'https://www.coursera.org/account/accomplishments/certificate/UVVELRJU5A32',
+            'http://68.media.tumblr.com/92a71d62ace9940f8ddd540400444fc4/tumblr_inline_mppo32jFBC1qz4rgp.png'
+        ),
+        new Course(
             'Scrum Manager',
             'Scrum Manager',
             'I obtained an expert level',
