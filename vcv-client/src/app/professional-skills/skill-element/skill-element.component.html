@@ -1,0 +1,13 @@
+<div *ngFor="let skillElement of getSkills();">
+    <mat-card>
+        <mat-card-title>{{ skillElement.name }}</mat-card-title>
+        <mat-card-subtitle><b>Level: </b>{{ skillElement.level }}</mat-card-subtitle>
+        <mat-card-subtitle><b>Experience: </b></mat-card-subtitle>
+        <mat-card-content>
+            <ul>
+                <li *ngFor="let experience of getExperience(skillElement)">{{ experience }}</li>
+            </ul>
+        </mat-card-content>
+    </mat-card>
+    <hr>
+</div>

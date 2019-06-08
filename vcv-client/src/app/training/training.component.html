@@ -1,10 +1,10 @@
 <div class="row">
     <div class="col-md-3">
-        <mat-list>
-            <app-training-list-element
-                *ngFor="let trainingEl of trainingList"
-                [training]="trainingEl"></app-training-list-element>
-        </mat-list>
+        <div class="list-group">
+            <a routerLink="./{{ trainingEl.relativeUrl }}" *ngFor="let trainingEl of trainingList">
+                {{ trainingEl.name }}
+            </a>
+        </div>
     </div>
     <div class="col-md-9">
         <router-outlet></router-outlet>

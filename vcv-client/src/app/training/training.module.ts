@@ -6,7 +6,6 @@ import { TrainingComponent } from './training.component';
 import { TrainingUniversityComponent } from './training-university/training-university.component';
 import { TrainingCoursesComponent } from './training-courses/training-courses.component';
 import { TrainingNoSelectionComponent } from './training-no-selection/training-no-selection.component';
-import { TrainingListElementComponent } from './training-list-element/training-list-element.component';
 
 import { CustomMaterialsModule } from '../custom-materials/custom-materials.module';
 
@@ -15,8 +14,7 @@ import { CustomMaterialsModule } from '../custom-materials/custom-materials.modu
       TrainingComponent,
       TrainingUniversityComponent,
       TrainingCoursesComponent,
-      TrainingNoSelectionComponent,
-      TrainingListElementComponent
+      TrainingNoSelectionComponent
   ],
   imports: [
     CommonModule,

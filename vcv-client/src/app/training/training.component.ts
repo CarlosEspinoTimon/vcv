@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { TrainingService } from './training.service';
-import { TrainingElement } from './training-element.model';
+import { TrainingService } from './service/training.service';
+import { TrainingElement } from './models/training-element.model';
 
 @Component({
   selector: 'app-training',
@@ -11,10 +11,10 @@ export class TrainingComponent implements OnInit {
 
     public trainingList: TrainingElement[];
 
-  constructor(private trainingProvider: TrainingService) { }
+    constructor(private trainingProvider: TrainingService) { }
 
-  ngOnInit() {
-      this.trainingList = this.trainingProvider.getTrainingElements();
-  }
+    ngOnInit() {
+        this.trainingList = this.trainingProvider.getTrainingElements();
+    }
 
 }

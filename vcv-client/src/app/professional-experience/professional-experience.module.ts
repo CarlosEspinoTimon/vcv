@@ -6,7 +6,7 @@ import { ProfessionalExperienceComponent } from './professional-experience.compo
 import { ProfessionalExperienceNoSelectionComponent } from './professional-experience-no-selection/professional-experience-no-selection.component';
 import { ProfessionalExperienceCompanyComponent } from './professional-experience-company/professional-experience-company.component';
 import { CustomMaterialsModule } from '../custom-materials/custom-materials.module';
-import { ProfessionalExperienceCurrentJobPipe } from './professional-experience-current-job.pipe';
+import { ProfessionalExperienceCurrentJobPipe } from './pipe/professional-experience-current-job.pipe';
 
 @NgModule({
   declarations: [

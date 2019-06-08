@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { ProfessionalExperience } from './professional-experience.model';
-import { ProfessionalExperienceProject } from './professional-experience-project.model';
+import { ProfessionalExperience } from '../models/professional-experience.model';
+import { ProfessionalExperienceProject } from '../models/professional-experience-project.model';
 
 @Injectable({
   providedIn: 'root'
@@ -77,7 +77,7 @@ export class ProfessionalExperienceService {
   constructor() { }
 
   getCompanies() {
-      return this.experience.map(experience => experience.company)
+      return this.experience.map(experience => experience.company);
   }
   
   getExperience(company: string): ProfessionalExperience {
