@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfessionalExperienceService } from './professional-experience.service';
+import { ProfessionalExperienceService } from './service/professional-experience.service';
 
 @Component({
   selector: 'app-professional-experience',

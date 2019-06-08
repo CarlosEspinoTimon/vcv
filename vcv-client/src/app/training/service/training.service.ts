@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { TrainingElement } from './training-element.model';
-import { UniversityStudy } from './training-university/university-study.model';
-import { Course } from './training-courses/course.model';
+import { TrainingElement } from '../models/training-element.model';
+import { UniversityStudy } from '../training-university/university-study.model';
+import { Course } from '../training-courses/course.model';
 
 
 @Injectable({

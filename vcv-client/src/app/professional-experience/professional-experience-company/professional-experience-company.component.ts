@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ProfessionalExperience } from '../professional-experience.model'
-import { ProfessionalExperienceService } from '../professional-experience.service';
-import { ActivatedRoute, Router, Params } from '@angular/router';
+import { ProfessionalExperience } from '../models/professional-experience.model'
+import { ProfessionalExperienceService } from '../service/professional-experience.service';
+import { ActivatedRoute, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -16,8 +16,7 @@ export class ProfessionalExperienceCompanyComponent implements OnInit, OnDestroy
 
     constructor(
         private peProvider: ProfessionalExperienceService,
-        private route: ActivatedRoute,
-        private router: Router
+        private route: ActivatedRoute
         ) { }
 
     ngOnInit() {
@@ -36,7 +35,6 @@ export class ProfessionalExperienceCompanyComponent implements OnInit, OnDestroy
     }
 
     getProjects() {
-        console.log(this.professionalExperience.projects)
         return this.professionalExperience.projects;
     }
 

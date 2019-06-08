@@ -9,17 +9,17 @@
                     alt="Company Logo"></div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row col-md-12">
             <mat-card-subtitle>Projects:</mat-card-subtitle>
             <hr>
         </div>
         <div *ngFor="let project of getProjects();">
-            <div class="row"><b>Name: </b></div>
-            <div class="row">{{ project.name }}</div>
-            <div class="row"><b>Technologies: </b></div>
-            <div class="row">{{ project.technologies }}</div>
-            <div class="row"><b>Responsabilities: </b></div>
-            <div class="row">{{ project.responsabilities }}</div>
+            <div class="row col-md-12"><b>Name: </b></div>
+            <div class="row col-md-12">{{ project.name }}</div>
+            <div class="row col-md-12"><b>Technologies: </b></div>
+            <div class="row col-md-12">{{ project.technologies }}</div>
+            <div class="row col-md-12"><b>Responsabilities: </b></div>
+            <div class="row col-md-12">{{ project.responsabilities }}</div>
             <hr>
         </div>
     </mat-card-content>
