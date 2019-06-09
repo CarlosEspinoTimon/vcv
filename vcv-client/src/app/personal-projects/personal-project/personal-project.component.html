@@ -1,0 +1,24 @@
+<mat-card>
+    <mat-card-title>{{ project.name }}</mat-card-title>
+    <mat-card-content>
+        <div class="row col-md-12"><b>About the project: </b></div>
+        <div 
+            *ngFor="let info of getInfo();"
+            class="row col-md-12">
+            <p>{{ info }}</p> 
+        </div>
+        <div class="row col-md-12"><b>Technologies: </b></div>
+        <div class="row col-md-12"><p>{{ project.technologies }}</p></div>
+        <div class="row col-md-12"><b>Repository: </b></div>
+        <div class="row col-md-12"><p><a href="{{ project.repository }}" target="_blank">See the repository</a></p></div>
+        <div *ngIf="project.web != ''" class="row col-md-12">
+            <div class="row col-md-12"><b>Website: </b></div>
+            <a href="{{ project.web }}" target="_blank">See the website</a>
+        </div>
+        
+        
+        
+    </mat-card-content>
+</mat-card>
+
+

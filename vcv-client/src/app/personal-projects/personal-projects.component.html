@@ -1,3 +1,12 @@
-<p>
-  personal-projects works!
-</p>
+<div class="row">
+    <div class="col-md-3">
+        <div class="list-group">
+            <a routerLink="./{{ project }}" *ngFor="let project of projects">
+                {{ project }}
+            </a>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <router-outlet></router-outlet>
+    </div>
+</div>
