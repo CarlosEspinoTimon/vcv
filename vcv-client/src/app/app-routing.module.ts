@@ -14,15 +14,15 @@ const appRoutes: Routes = [
         loadChildren: './about-me/about-me.module#AboutMeModule'
     },
     {
-        path: 'professional-experience',
+        path: 'experience',
         loadChildren: './professional-experience/professional-experience.module#ProfessionalExperienceModule'
     },
     {
-        path: 'professional-skills',
+        path: 'skills',
         loadChildren: './professional-skills/professional-skills.module#ProfessionalSkillsModule'
     },
     {
-        path: 'personal-projects',
+        path: 'projects',
         loadChildren: './personal-projects/personal-projects.module#PersonalProjectsModule'
     },
     {

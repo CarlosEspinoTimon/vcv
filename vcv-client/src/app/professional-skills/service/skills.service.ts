@@ -126,7 +126,19 @@ export class SkillsService {
                     ]
                 )
             ]
-        ), ,
+        ),
+        new Skills(
+            'Git',
+            [
+                new SkillElement(
+                    'Git',
+                    'Good',
+                    [
+                        'I have used git in all the projects I have worked in, both professional and personal projects, adapting to different methodologies of work depending on the company or the project.'
+                    ]
+                )
+            ]
+        ),
         new Skills(
             'Frameworks',
             [
