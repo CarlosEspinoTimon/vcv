@@ -174,7 +174,7 @@ export class SkillsService {
                     'Docker',
                     'Good',
                     [
-                        'Professionally: I have worked with Docker in 3 projects where I containerized The environment.',
+                        'Professionally: I have worked with Docker in 3 projects where I containerized the environment. In almost all of them it was a Docker with node for the frontend and a Docker with Python for the backend.',
                         'Non-professionally: I containerized the environment in my CRM project and I plan to do it for now on in all the projects.'
                     ]
                 ),

@@ -12,7 +12,7 @@ export class ProfessionalExperienceService {
             'Edosoft',
             'Full Stack Developer',
             new Date('01/04/2018'),
-            new Date('01/01/2050'),
+            null,
             [
                 new ProfessionalExperienceProject(
                     'Control Panel',
@@ -40,7 +40,8 @@ export class ProfessionalExperienceService {
                     'This project consisted in a Collaborative Agenda where promoters can promote events in a local gobernment website. I worked both in backend and in frontend I also was in charge to create the development environment with Docker and docker-compose, so all the developers would have the same environment and there were no dependency problems.'
                 )
             ],
-            'https://edosoft.es/assets/images/logo-blue.png'
+            'https://edosoft.es/assets/images/logo-blue.png',
+            ''
         ),
         new ProfessionalExperience(
             'ITER',
@@ -50,15 +51,16 @@ export class ProfessionalExperienceService {
             [
                 new ProfessionalExperienceProject(
                     'Tetsuki',
-                    'Python, Angular4, Docker, Google Cloud Platform (Kubernettes, App Engine, Datastore)',
+                    'Python, Angular 4, Docker, Google Cloud Platform (Kubernettes, App Engine and Datastore)',
                     'I worked in a project that collected tenders\' information from public websites. I used a variety of languages and technologies such us: Python for the web scrappers and the server backend, Docker and Kubernettes to deploy the scrappers.Google App Engine Standard for the application, Google Datastore as database (I did the migration to Elasticsearch) and Angular 4 for the web client.I also wrote some unit and functional test in Python.'
                 )
             ],
-            'https://www.cienciacanaria.es/scei2015/images/colaboradores/logo_ITER.jpg'
+            'https://www.cienciacanaria.es/scei2015/images/colaboradores/logo_ITER.jpg',
+            ''
         ),
         new ProfessionalExperience(
             'Laureon',
-            'Computer Engineer',
+            'Computer Engineer (Remote)',
             new Date('01/03/2017'),
             new Date('01/09/2017'),
             [
@@ -68,7 +70,8 @@ export class ProfessionalExperienceService {
                     'I deployed an online platform to offer courses. The chosen platform was Open Edx, and was deployed on Google Cloud Platform.I worked on the integration of Vimeo in the platform and on the website where the courses where sold, that was written in Python using the Django.Framework.'
                 )
             ],
-            'https://www.laureon.es/static/img/og_image.15f7def9cd9e.png'
+            'https://www.laureon.es/static/img/og_image.15f7def9cd9e.png',
+            'https://drive.google.com/file/d/0Bz02AoaiYQUjMlh3X285UzBkaUNlY2FacXYwbnB6S3hXUGJZ/view?usp=sharing'
         )
 
     ];

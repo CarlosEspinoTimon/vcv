@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Website } from './models/website';
+import { ArticlesService } from './service/articles.service';
 
 @Component({
   selector: 'app-articles',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticlesComponent implements OnInit {
 
-  constructor() { }
+    public webs: String[];
 
-  ngOnInit() {
-  }
+    constructor(private articlesProvider: ArticlesService) { }
+
+    ngOnInit() {
+        this.webs = this.articlesProvider.getWebsites();
+    }
 
 }

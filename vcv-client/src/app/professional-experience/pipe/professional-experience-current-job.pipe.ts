@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class ProfessionalExperienceCurrentJobPipe implements PipeTransform {
 
   transform(value: string): any {
-      if (value == 'Jan, 2050') {
+      if (value == null) {
           return 'Currently working'
       }
       return value;
