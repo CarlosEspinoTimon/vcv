@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { ContactRoutingModule } from './contact-routing.module';
 import { ContactComponent } from './contact.component';
 import { CustomMaterialsModule } from '../custom-materials/custom-materials.module';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 
 
 @NgModule({
@@ -12,6 +14,7 @@ import { CustomMaterialsModule } from '../custom-materials/custom-materials.modu
     CommonModule,
     ContactRoutingModule,
     CustomMaterialsModule,
+    AngularFontAwesomeModule
   ]
 })
 export class ContactModule { }
