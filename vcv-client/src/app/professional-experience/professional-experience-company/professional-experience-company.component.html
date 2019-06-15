@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-title>{{ professionalExperience.company }}</mat-card-title>
+    <mat-card-subtitle>{{ professionalExperience.position }}</mat-card-subtitle>
+    <mat-card-content>
+        <div class="row">
+            <div class="col-md-4"><b>From:</b> {{ professionalExperience.from | date: 'MMM, y' }}</div>
+            <div class="col-md-4"><b>To:</b> {{ professionalExperience.to | date: 'MMM, y' | professionalExperienceCurrentJob }}</div>
+            <div class="col-md-4" style="padding-right: 10%"><img mat-card-image src="{{ professionalExperience.logo }}"
+                    alt="Company Logo"></div>
+        </div>
+        <hr>
+        <div class="row col-md-12">
+            <mat-card-subtitle>Projects:</mat-card-subtitle>
+            <hr>
+        </div>
+        <div *ngFor="let project of getProjects();">
+            <div class="row col-md-12"><b>Name: </b></div>
+            <div class="row col-md-12">{{ project.name }}</div>
+            <div class="row col-md-12"><b>Technologies: </b></div>
+            <div class="row col-md-12">{{ project.technologies }}</div>
+            <div class="row col-md-12"><b>Responsabilities: </b></div>
+            <div class="row col-md-12">{{ project.responsabilities }}</div>
+            <hr>
+        </div>
+        <div *ngIf="professionalExperience.recommendation != ''" class="row col-md-12">
+            <div class="row col-md-12"><b>Recommendation letter: </b></div>
+            <a href="{{ professionalExperience.recommendation }}" target="_blank">See the recommendation letter (spanish)</a>
+        </div>
+    </mat-card-content>
+</mat-card>
