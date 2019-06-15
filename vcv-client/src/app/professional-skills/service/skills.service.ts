@@ -23,8 +23,15 @@ export class SkillsService {
                     'TypeScript',
                     'Good',
                     [
-                        'Professionally: I have worked in 4 web applications using Angular as frontend ()Angular 4, 6 and 7).',
+                        'Professionally: I have worked in 4 web applications using Angular as frontend (Angular 4, 6 and 7).',
                         'Non-professionally: I have worked in two projects that you can see in the Projects area, in particular, this website. '
+                    ]
+                ),
+                new SkillElement(
+                    'JavaScript',
+                    'Good',
+                    [
+                        'Professionally I worked a in the Control Panel Project. I had to implement some functions to handle the layout of the graphs in the Pentaho Dashboard.'
                     ]
                 ),
                 new SkillElement(
@@ -35,13 +42,6 @@ export class SkillsService {
                         'Professionally I worked with Java in the Control Panel Project. There were some ETL that needed the client to upload some csv files, we implement some portlets in Java to handle the upload of files.'
                     ]
                 ),
-                new SkillElement(
-                    'JavaScript',
-                    'Basic',
-                    [
-                        'Professionally I worked a in the Control Panel Project. I had to implement some functions to handle the layout of the graphs in the Pentaho Dashboard.'
-                    ]
-                )
             ]
         ),
         new Skills(
@@ -73,7 +73,7 @@ export class SkillsService {
                     'Firestore',
                     'Medium',
                     [
-                        'I have worked professionally in on project where Firestore was the database.'
+                        'I have worked professionally in one project where Firestore was the database.'
                     ]
                 ),
                 new SkillElement(
@@ -115,7 +115,7 @@ export class SkillsService {
                     'Firestore',
                     'Medium',
                     [
-                        'I have worked professionally in on project where Firestore was the database.'
+                        'I have worked professionally in one project where Firestore was the database.'
                     ]
                 ),
                 new SkillElement(
@@ -154,7 +154,7 @@ export class SkillsService {
                     'Angular',
                     'Good',
                     [
-                        'Professionally: I have worked in 4 web applications using Angular as frontend ()Angular 4, 6 and 7).',
+                        'Professionally: I have worked in 4 web applications using Angular as frontend (Angular 4, 6 and 7).',
                         'Non-professionally: I have worked in a few project that you can see in the Projects area.'
                     ]
                 ),
