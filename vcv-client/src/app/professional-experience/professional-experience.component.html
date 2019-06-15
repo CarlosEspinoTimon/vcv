@@ -1,12 +1,16 @@
-<div class="row">
-    <div class="col-md-2">
-        <div class="list-group">
-            <a routerLink="./{{ company }}" *ngFor="let company of companies">
-                {{ company }}
-            </a>
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="container top-5">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="list-group">
+                    <a routerLink="./{{ company }}" *ngFor="let company of companies" class="bold">
+                        {{ company }}
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <router-outlet></router-outlet>
+            </div>
         </div>
-    </div>
-    <div class="col-md-10">
-        <router-outlet></router-outlet>
     </div>
 </div>

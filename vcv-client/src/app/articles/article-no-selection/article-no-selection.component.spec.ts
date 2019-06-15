@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderComponent } from './header.component';
+import { ArticleNoSelectionComponent } from './article-no-selection.component';
 
-describe('HeaderComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('ArticleNoSelectionComponent', () => {
+  let component: ArticleNoSelectionComponent;
+  let fixture: ComponentFixture<ArticleNoSelectionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [ ArticleNoSelectionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(ArticleNoSelectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

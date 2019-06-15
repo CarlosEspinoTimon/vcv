@@ -15,7 +15,7 @@ export class SkillsService {
                     'Python',
                     'Proficent',
                     [
-                        'Professionally: I have worked in 4 web applications using Python as a backend and in another project I wrote some script in Python to execute some processes such us upload of images.', 
+                        'Professionally: I have worked in 4 web applications using Python as a backend mainly in Flask, I also used this language in a project where I had to automate some processes.', 
                         'Non-professionally: I have worked in a few project that you can see in the Projects area. '
                     ]
                 ),
@@ -23,25 +23,25 @@ export class SkillsService {
                     'TypeScript',
                     'Good',
                     [
-                        'Professionally: I have worked in 4 web applications using Angular as frontend, using Angular 4, 6 and 7.',
-                        'Non-professionally: I have worked in a few project that you can see in the Projects area. '
+                        'Professionally: I have worked in 4 web applications using Angular as frontend (Angular 4, 6 and 7).',
+                        'Non-professionally: I have worked in two projects that you can see in the Projects area, in particular, this website. '
+                    ]
+                ),
+                new SkillElement(
+                    'JavaScript',
+                    'Good',
+                    [
+                        'Professionally I worked a in the Control Panel Project. I had to implement some functions to handle the layout of the graphs in the Pentaho Dashboard.'
                     ]
                 ),
                 new SkillElement(
                     'Java',
                     'Medium',
                     [
-                        'I practically studied the whole college career in Java.', 
-                        'In my professional life I worked with Java in the Control Panel Project. There were some ETL that needed to client to upload some csv files, we generated portlets for Liferay to handle this situation and this portlets were written in Java.'
+                        'I practically studied the whole college degree in Java.', 
+                        'Professionally I worked with Java in the Control Panel Project. There were some ETL that needed the client to upload some csv files, we implement some portlets in Java to handle the upload of files.'
                     ]
                 ),
-                new SkillElement(
-                    'JavaScript',
-                    'Basic',
-                    [
-                        'In my professional life I worked a in the Control Panel Project. I had to code som functions in Javascript to implement some functions to handle the layout of the graphs in the Pentaho Dashboard.'
-                    ]
-                )
             ]
         ),
         new Skills(
@@ -51,7 +51,7 @@ export class SkillsService {
                     'MySQL',
                     'Good',
                     [
-                        'Professionally: I have worked in 3 projects', 
+                        'Professionally: I have used MySQL as database in 3 projects, with different responsabilities from just read some data, create tables or the whole schema.', 
                         'Non-professionally: I have two personal projects where I have choose MySQL as my database. The Shopping list and the CRM.'
                     ]
                 ),
@@ -73,14 +73,14 @@ export class SkillsService {
                     'Firestore',
                     'Medium',
                     [
-                        'I have worked professionally in on project where Firestore was the database.'
+                        'I have worked professionally in one project where Firestore was the database.'
                     ]
                 ),
                 new SkillElement(
                     'Elasticsearch',
                     'Basic',
                     [
-                        'I worked in a project where I was in charge to change the database from Datastore to Elasticsearh and all the backend.'
+                        'I worked in a project where I was in charge of implementing the change from Datastore database to Elasticsearch.'
                     ]
                 )
             ]
@@ -92,7 +92,7 @@ export class SkillsService {
                     'Compute Engine',
                     'Good',
                     [
-                        'Professionally: I have worked in 2 projects where I had to deploy and worked with instances in Compute Engine (Linux and Windows Server)',
+                        'Professionally: I have worked in 2 projects where I had to deploy and work some instances in Compute Engine (Linux and Windows Server)',
                         'Non-professionally: I have deployed lots of instances (I have done 2 Coursera courses where I have to deploy multiple instances) and I have one MySQL deployed in a Compute Engine instance.'
                     ]
                 ),
@@ -115,14 +115,14 @@ export class SkillsService {
                     'Firestore',
                     'Medium',
                     [
-                        'I have worked professionally in on project where Firestore was the database.'
+                        'I have worked professionally in one project where Firestore was the database.'
                     ]
                 ),
                 new SkillElement(
                     'Kubernettes',
                     'Basic',
                     [
-                        'Professionally: For one project, there were some web scrappers that were executed everyday, I created a Kubernettes cluster and deploy them with a Docker images and automate their execution.'
+                        'Professionally: For one project, there were some web scrappers that were executed daily, I created a Kubernettes cluster, deploy them and automate their execution.'
                     ]
                 )
             ]
@@ -134,7 +134,7 @@ export class SkillsService {
                     'Git',
                     'Good',
                     [
-                        'I have used git in all the projects I have worked in, both professional and personal projects, adapting to different methodologies of work depending on the company or the project.'
+                        'I have used git in all the projects I have worked in, both professional and personal projects, adapting to different work methodologies depending on the company or the project.'
                     ]
                 )
             ]
@@ -154,7 +154,7 @@ export class SkillsService {
                     'Angular',
                     'Good',
                     [
-                        'Professionally: I have worked in 4 web applications using Angular as frontend, using Angular 4, 6 and 7.',
+                        'Professionally: I have worked in 4 web applications using Angular as frontend (Angular 4, 6 and 7).',
                         'Non-professionally: I have worked in a few project that you can see in the Projects area.'
                     ]
                 ),
@@ -174,7 +174,7 @@ export class SkillsService {
                     'Docker',
                     'Good',
                     [
-                        'Professionally: I have worked with Docker in 3 projects where I containerized The environment.',
+                        'Professionally: I have worked with Docker in 3 projects where I containerized the environment. In almost all of them it was a Docker with node for the frontend and a Docker with Python for the backend.',
                         'Non-professionally: I containerized the environment in my CRM project and I plan to do it for now on in all the projects.'
                     ]
                 ),
@@ -190,7 +190,7 @@ export class SkillsService {
                     'Vagrant',
                     'Medium',
                     [
-                        'Professionally: I used Vagrant to build an Ubuntu image that configured a VPN and installed Remmina to allow me to access to the Production environment when needed to solve a bug.',
+                        'Professionally: I used Vagrant to build an Ubuntu image that configured a VPN and installed Remmina client with a connection configured to allow me to access to the Production environment from my computer.',
                     ]
                 )
             ]
@@ -202,7 +202,7 @@ export class SkillsService {
                     'Jenkins',
                     'Medium',
                     [
-                        'Professionally: I have worked in one project where I had modify a pipeline to be able at the end to deploy the service in a Docker container remotely.',
+                        'Professionally: I have worked in one project where I had modify a pipeline to be able to deploy the service in a Docker container remotely.',
                         'Non-professionally: In my CRM project I deployed a Jenkins server and create a pipeline that run the tests and deploy the app to App Engine.'
                     ]
                 )

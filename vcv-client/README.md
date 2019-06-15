@@ -1,6 +1,7 @@
 # VcvClient
+This project is my personal web site where anyone can see my "virtual CV".
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+The project just consists in a, Angular 7 website. There is no backend as all the info is in the web client.
 
 ## Development server
 
@@ -12,16 +13,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `/deployment/dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Deploy
+This app can be deployed in Google App Engine, there is a configuration file called `app.yaml` in the `deployment/` directory. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Once you have build the app, you can deploy the app by running: `gcloud app deploy` in the `deployment` directory. Beware that you have to have [initiated the cloud SDK](https://cloud.google.com/sdk/docs/initializing "Initializing Cloud SDK")
