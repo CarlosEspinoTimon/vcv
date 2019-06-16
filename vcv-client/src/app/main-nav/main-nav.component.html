@@ -7,14 +7,14 @@
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="!(isHandset$ | async)">
     <mat-nav-list>
-        <a mat-list-item routerLink="home" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-        <a mat-list-item routerLink="about-me" class="w3-bar-item w3-button"><i class="fa fa-user"></i>About</a>
-        <a mat-list-item routerLink="training" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Training</a>
-        <a mat-list-item routerLink="experience" class="w3-bar-item w3-button"><i class="fa fa-briefcase" aria-hidden="true"></i>Experience</a>
-        <a mat-list-item routerLink="skills" class="w3-bar-item w3-button"><i class="fa fa-code" aria-hidden="true"></i>Skills</a>
-        <a mat-list-item routerLink="projects" class="w3-bar-item w3-button"><i class="fa fa-folder" aria-hidden="true"></i>Projects</a>
-        <a mat-list-item routerLink="articles" class="w3-bar-item w3-button"><i class="fa fa-pencil" aria-hidden="true"></i>Articles</a>
-        <a mat-list-item routerLink="contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Contact</a>
+        <a mat-list-item routerLink="home">Home</a>
+        <a mat-list-item routerLink="about-me">About</a>
+        <a mat-list-item routerLink="training">Training</a>
+        <a mat-list-item routerLink="experience">Experience</a>
+        <a mat-list-item routerLink="skills">Skills</a>
+        <a mat-list-item routerLink="projects">Projects</a>
+        <a mat-list-item routerLink="articles">Articles</a>
+        <a mat-list-item routerLink="contact">Contact</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -29,14 +29,14 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
         <mat-nav-list *ngIf="!(isHandset$ | async)">
-            <a routerLink="home" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-            <a routerLink="about-me" class="w3-bar-item w3-button"><i class="fa fa-user"></i>About</a>
-            <a routerLink="training" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Training</a>
-            <a routerLink="experience" class="w3-bar-item w3-button"><i class="fa fa-briefcase" aria-hidden="true"></i>Experience</a>
-            <a routerLink="skills" class="w3-bar-item w3-button"><i class="fa fa-code" aria-hidden="true"></i>Skills</a>
-            <a routerLink="projects" class="w3-bar-item w3-button"><i class="fa fa-folder" aria-hidden="true"></i>Projects</a>
-            <a routerLink="articles" class="w3-bar-item w3-button"><i class="fa fa-pencil" aria-hidden="true"></i>Articles</a>
-            <a routerLink="contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Contact</a>
+            <a routerLink="home">Home</a>
+            <a routerLink="about-me">About</a>
+            <a routerLink="training">Training</a>
+            <a routerLink="experience">Experience</a>
+            <a routerLink="skills">Skills</a>
+            <a routerLink="projects">Projects</a>
+            <a routerLink="articles">Articles</a>
+            <a routerLink="contact">Contact</a>
         </mat-nav-list>
     </mat-toolbar>
     <!-- Add Content Here -->
