@@ -1,0 +1,13 @@
+{
+    "webs" : [
+        {
+            "name": "Medium",
+            "articles": [
+                {
+                    "name": "Autolearning 1.0: App Engine Standard, Flask, Angular 6 and Beautiful Soup'",
+                    "link": "https://medium.com/@carlosespinotimon/autolearning-1-0-app-engine-standard-flask-angular-6-and-beautiful-soup-236551f23af" 
+                }
+            ]
+        }        
+    ]
+}

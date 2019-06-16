@@ -1,6 +1,6 @@
 export class UniversityStudy {
-    public university: string;
     public title: string;
+    public university: string;
     public grade: number;
     public info: string;
     public infoUrl?: string;
