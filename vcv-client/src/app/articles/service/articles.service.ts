@@ -1,25 +1,24 @@
 import { Injectable } from '@angular/core';
 import { Website } from '../models/website';
 import { Article } from '../models/article';
+import JSONinfo from '../../../assets/articles.json';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ArticlesService {
 
-    webs = [
-        new Website(
-            'Medium',
-            [
-                new Article(
-                    'Autolearning 1.0: App Engine Standard, Flask, Angular 6 and Beautiful Soup',
-                    'https://medium.com/@carlosespinotimon/autolearning-1-0-app-engine-standard-flask-angular-6-and-beautiful-soup-236551f23af'
-                )
-            ]
-        )
-    ]
+    webs =  []
 
-  constructor() { }
+  constructor() {
+      this.processArticlesFromJSON();
+   }
+
+   processArticlesFromJSON() { 
+       JSONinfo.webs.forEach((website: Website) => {
+           this.webs.push(website);
+       })
+   }
 
   getWebsites() {
       return this.webs.map(web => web.name);
