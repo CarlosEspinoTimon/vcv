@@ -1,0 +1,14 @@
+version: '3'
+services:
+  front:
+    build:
+      context: ../vcv-client/
+      args:
+        username: "nonroot"
+        GROUP_ID: "${GROUP_ID}"
+        USER_ID: "${USER_ID}"
+    ports:
+      - '4200:4200'
+      - '9876:9876'
+    volumes:
+      - '../vcv-client/:/code'

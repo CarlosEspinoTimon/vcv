@@ -1,0 +1,21 @@
+.custom-row {
+    overflow: hidden; 
+    text-align: center;
+}
+
+.custom-span {
+    display: inline-block;
+    /* font-size: 20px!important; */
+}
+
+@media (min-width: 1600px) {
+    .text-box {
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .custom-span {
+        font-size: 16px!important;
+    }
+}
