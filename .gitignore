@@ -2,3 +2,5 @@
 appengine-generated/
 
 **/dist/
+
+local_environment/.env

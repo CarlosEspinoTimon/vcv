@@ -17,5 +17,10 @@ access-frontend:
 	sudo docker exec -it $(front) bash
 
 
+# Access front
+build-prod:
+	sudo docker exec -t $(front) ng build --prod
+
+
 
 
