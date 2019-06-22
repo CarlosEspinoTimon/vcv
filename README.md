@@ -60,3 +60,4 @@ This project is prepared to be easily deployed in Google App Engine. Once you de
 This command builds the project and generates the needed files to deploy it in production. I changed the `angular.json` file to build the project inside the `vcv_client/GAE_deployment`  directory, with this approach is easy to control the files that are going to be uploaded to Google App Engine, as you have a limit of files allowed (10.000 files per version). In the `vcv_client/GAE_deployment` folder you also will find an `app.yaml`. 
 
 Once you have it, you can deploy the app by running: `gcloud app deploy` in the `vcv_client/GAE_deployment` directory. Beware that you have to have [initiated the cloud SDK](https://cloud.google.com/sdk/docs/initializing "Initializing Cloud SDK")
+
