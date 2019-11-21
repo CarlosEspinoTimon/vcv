@@ -23,13 +23,23 @@
                 },
                 {
                     "name": "Migration of Oracle Forms",
-                    "technologies": "Python (Flask), Angular 7, SQL Server, Docker, docker-compose",
+                    "technologies": "Python (Flask), Angular 7, SQL Server, Docker and docker-compose",
                     "responsabilities": "This project consisted in the migration of Oracle Forms 6 to a more modern stack. I worked both in backend and in frontend I also was in charge to create the development environment with Docker and docker-compose, so all the developers would have the same environment and there were no dependency problems."
                 },
                 {
                     "name": "Collaborative agendas",
-                    "technologies": "Python (Flask), Angular 7, MySQL, Docker, docker-compose",
+                    "technologies": "Python (Flask), Angular 7, MySQL, Docker and docker-compose",
                     "responsabilities": "This project consisted in a Collaborative Agenda where promoters can promote events in a local government website. I worked both in backend and in frontend I also was in charge to create the development environment with Docker and docker-compose, so all the developers would have the same environment and there were no dependency problems. I was also in charge of the deployment of the application in the client server."
+                },
+                {
+                    "name": "C8",
+                    "technologies": "Node, Kafka, Firebase, PostgreSQL, Docker and docker-compose",
+                    "responsabilities": "My company asked me to implement a notification system for an application that was almost finished. The system included Kafka to pass messages between services and a Node server that had to made push notification to the users through Firebase. I created a development environment with Docker and orchestrate everythong with docker-compose. It consisted in a Kafka server with 3 nodes that can hold the replication and partition of topics, a PostgreSQL database, a Node server with a Producer and 3 Node Servers with Consumers."
+                },
+                {
+                    "name": "Google Data Studio Conectors",
+                    "technologies": "Appscript",
+                    "responsabilities": "In this project I implemented 3 Google Data Studio Connectors. The client already had the three of them for Tableau and I had to adapt the code for Google Data Studio."
                 }
             ],
             "logo": "https://edosoft.es/assets/images/logo-blue.png",

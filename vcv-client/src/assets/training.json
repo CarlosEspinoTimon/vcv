@@ -35,6 +35,20 @@
     "courses": [
         {
             "entity": "Coursera",
+            "title": "Google Cloud Fundamentals: Core Infrastructure",
+            "info": "I participated in a Google Cloud Training for Google Partners",
+            "infoUrl": "https://www.coursera.org/account/accomplishments/certificate/DFAMQRXDZTZX",
+            "imageUrl": "http://68.media.tumblr.com/92a71d62ace9940f8ddd540400444fc4/tumblr_inline_mppo32jFBC1qz4rgp.png"
+        },
+        {
+            "entity": "Coursera",
+            "title": "Essential Cloud Infrastructure: Foundation",
+            "info": "I participated in a Google Cloud Training for Google Partners",
+            "infoUrl": "https://www.coursera.org/account/accomplishments/certificate/M32YYDQVWCRR",
+            "imageUrl": "http://68.media.tumblr.com/92a71d62ace9940f8ddd540400444fc4/tumblr_inline_mppo32jFBC1qz4rgp.png"
+        },
+        {
+            "entity": "Coursera",
             "title": "Elastic Cloud Infrastructure: Containers and Services",
             "info": "I participated in a Google Cloud Training for Google Partners",
             "infoUrl": "https://www.coursera.org/account/accomplishments/certificate/4QHW3NXDG64T",

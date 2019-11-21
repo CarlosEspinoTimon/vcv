@@ -23,7 +23,7 @@
                     "name": "JavaScript",
                     "level": "Competent",
                     "experience": [
-                        "Professionally I worked a in the Control Panel Project. I had to implement some functions to handle the layout of the graphs in the Pentaho Dashboard."
+                        "Professionally I worked a in the Control Panel Project where I had to implement some functions to handle the layout of the graphs in the Pentaho Dashboard. Lately I have started working in a project where I had to create and a Node API Server and connected with a Postgres DB using the ORM typeorm"
                     ]
                 },
                 {
@@ -52,6 +52,13 @@
                     "level": "Competent",
                     "experience": [
                         "I have worked professionally in two projects that used SQL Server."
+                    ]
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": "Basic knowledge",
+                    "experience": [
+                        "I have worked professionally in project where I configured the backend connection to the Database. I used the ORM typeorm"
                     ]
                 },
                 {
@@ -115,6 +122,13 @@
                     "level": "Basic knowledge",
                     "experience": [
                         "Professionally: For one project, there were some web scrappers that were executed daily, I created a Kubernettes cluster, deploy them and automate their execution."
+                    ]
+                },
+                {
+                    "name": "Google Data Studio",
+                    "level": "Competent",
+                    "experience": [
+                        "Professionally: I worked on a project where I had to develop three Google Data Studio Connectors."
                     ]
                 }
             ]

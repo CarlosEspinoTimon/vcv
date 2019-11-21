@@ -4,7 +4,23 @@
             "name": "Medium",
             "articles": [
                 {
-                    "name": "Autolearning 1.0: App Engine Standard, Flask, Angular 6 and Beautiful Soup'",
+                    "name": "Containerized development environment (Flask+Angular+MySQL)",
+                    "link": "https://medium.com/@carlosespinotimon/dockerized-development-environment-for-flask-angular-60719c111f51"
+                },
+                {
+                    "name": "if not schema.validate(data): print(“Validation rules”)",
+                    "link": "https://medium.com/swlh/if-not-schema-validate-data-print-validation-rules-dbb8df4f8cb7"
+                },
+                {
+                    "name": "Git hooks",
+                    "link": "https://medium.com/@carlosespinotimon/git-hooks-cc07908cd54?source=friends_link&sk=85c4204123954be0b14f08707b1ee376"
+                },
+                {
+                    "name": "An Angular template to create your Virtual Curriculum Vitae",
+                    "link": "https://medium.com/@carlosespinotimon/an-angular-template-to-create-your-virtual-curriculum-vitae-587f8700247d"
+                },
+                {
+                    "name": "Autolearning 1.0: App Engine Standard, Flask, Angular 6 and Beautiful Soup",
                     "link": "https://medium.com/@carlosespinotimon/autolearning-1-0-app-engine-standard-flask-angular-6-and-beautiful-soup-236551f23af" 
                 }
             ]

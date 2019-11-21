@@ -16,9 +16,10 @@
             "info": [
                 "This is an example of a Customer Relationship Managment. The backend server is developed in Flask and it uses MySQL as database",
                 "I used docker-compose and Docker to create a development environment easily shareable, so if anyone wants to participate it just clone the project, start it with just one command (having Docker and docker-compose installed) and start coding.",
+                "The projects has a Githook configured that before each commit tries to run the test, checks that there is no codestyle errors (regarding PEP8) and in the end, if everything has gone ok, it generates the API documentation with Sphinx. After all this, the commit is done.",
                 "I implemented a CI/CD pipeline, using Jenkins to automate all the deploymentment. In this case the Jenkins pipeline runs some tests and the deploys the server in Google App Engine when changes are made in the master branch."
             ],
-            "technologies": "Python, Flask, Docker, docker-compose, Jenkins, MySQL",
+            "technologies": "Python, Flask, Docker, docker-compose, Jenkins, MySQL, Githooks, Sphinx",
             "repository": "https://github.com/CarlosEspinoTimon/crm_service",
             "web": ""
         },
